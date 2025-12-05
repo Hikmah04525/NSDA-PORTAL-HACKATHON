@@ -43,7 +43,11 @@ app.use("/api/studentManagement", studentManagementRoutes);
 // Global error handler
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`✅ Server running on port ${PORT}`);
-});
+
+// Vercel handles the environment, so we remove app.listen()
+// const PORT = process.env.PORT || 5000;
+//app.listen(PORT, () => {
+  //  console.log(`✅ Server running on port ${PORT}`);
+//});
+
+module.exports = app;
