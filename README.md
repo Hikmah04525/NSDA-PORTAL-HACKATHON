@@ -61,7 +61,7 @@ NSDA  Portal is a final hackathon project aimed at creating a skill and tech dev
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Hikmah04525/NSDA-PORTAL-HACKATHON
 
 # Navigate to project folder
 cd NSDA
